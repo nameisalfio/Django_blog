@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head_title %}
+    {{ block.super }} | Contact Us
+{% endblock head_title %}
+
+{% block content %}
+    <div class="contact-info">
+        <h1>Our Contact Information</h1>
+        <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        <p><strong>Address:</strong> 1234 Street Name, City, Country, 56789</p>
+        <img class="image-responsive" src="{% static 'posts/img/contact.png' %}" alt="Contact Image" style="max-width:20%; height:auto;">
+    </div>
+{% endblock content %}
