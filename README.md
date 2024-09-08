@@ -130,3 +130,7 @@ I welcome contributions to this project. If you'd like to suggest improvements o
 ## Conclusion
 
 This Blog Application, built on the Django framework, offers a simple and effective way to manage and display blog posts. With its intuitive interface and basic functionality, it serves as a solid foundation for creating a full-featured blogging platform. I encourage you to explore the capabilities of this application and contribute to its development.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
